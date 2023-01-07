@@ -1,0 +1,82 @@
+textarea {
+    min-height: 400px;
+}
+
+#email-table {
+    width: 100%;
+}
+
+.table-row {
+    width: 100%;
+    color: inherit;
+    padding: 10px;
+    background-color: white;
+    border:1px solid rgb(119, 151, 221);
+}
+
+.table-row:hover {
+    color: inherit;
+    border: 2px solid rgb(119, 151, 221);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.email-read {
+    background-color: rgb(228, 228, 228);
+}
+
+.table-detail {
+    padding: 10px;
+}
+
+.table-sender {
+    font-weight: bold;
+    width: 24%;
+}
+
+.table-subject {
+    width: 49%;
+}
+
+.table-timestamp {
+    width: 24%;
+    text-align: right;
+}
+
+.table-archive {
+    text-align: center;
+    width: 3%;
+    border: none;
+}
+
+.table-archive:hover {
+    cursor: pointer;
+}
+
+.table-archive-text {
+    font-size: smaller;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: block;
+    line-height: 1em;
+    max-height: 2em;
+}
+
+#view-metadata {
+    width: 100%;
+    border-bottom: 1px solid rgb(119, 151, 221);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.view-metadata-bold {
+    font-weight: bold;
+}
+
+#view-body {
+    padding-top: 20px;
+}
